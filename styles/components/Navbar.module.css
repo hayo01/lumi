@@ -1,0 +1,45 @@
+.hd {
+  border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+}
+
+.hdWrap {
+  padding: 8px 0px 8px;
+  width: 1180px;
+  margin: 0px auto;
+  height: 106px;
+}
+
+.hdLogo {
+  float: left;
+  position: relative;
+}
+
+.hdNavWrap {
+  float: right;
+  width: calc(100% - 92px);
+}
+
+.hdTopNav {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 26px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.TopNavIcon {
+  margin-left: 20px;
+}
+
+.hdNav {
+  text-align: center;
+}
+
+.hdMenu {
+  display: inline-block;
+  padding-right: 32px;
+
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+}

@@ -1,0 +1,73 @@
+.prodWrap {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  padding: 72px 20px 48px;
+}
+
+.product {
+  width: calc(25% - 23px);
+}
+
+.prodTitle {
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 1.31;
+  letter-spacing: normal;
+  margin-bottom: 20px;
+  word-break: keep-all;
+}
+
+.orgPrice {
+  /* font-family: Poppins; */
+  font-size: 14px;
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.3);
+  display: block;
+  margin-bottom: 0px;
+}
+
+.curPrice {
+  /* font-family: Poppins; */
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 16px;
+
+  display: flex;
+  align-items: center;
+}
+.percent {
+  /* font-family: Poppins; */
+  font-size: 16px;
+  font-weight: bold;
+  color: #cb1508;
+}
+
+.prodDesc {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* Media Query */
+@media (max-width: 1240px) {
+  .product {
+    width: calc(33% - 30px);
+  }
+}
+@media (max-width: 1440px) {
+  .product {
+    width: calc(25% - 23px);
+  }
+}
+@media (max-width: 1600px) {
+  .product {
+    width: calc(25% - 23px);
+  }
+}
